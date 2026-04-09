@@ -192,15 +192,6 @@ function AboutUs() {
   );
 }
 
-const services = [
-  { icon: "🪵", title: "Raspagem de Tacos", desc: "Remoção completa do verniz antigo e nivelamento da superfície para um acabamento liso e uniforme." },
-  { icon: "✨", title: "Polimento e Lustro", desc: "Aplicação de produtos de alta performance para realçar o brilho natural da madeira." },
-  { icon: "🛡️", title: "Verniz e Proteção", desc: "Camadas de proteção contra umidade, riscos e desgaste do dia a dia." },
-  { icon: "🔧", title: "Recuperação de Assoalhos", desc: "Substituição de peças danificadas mantendo a harmonia do conjunto original." },
-  { icon: "🏠", title: "Deck e Áreas Externas", desc: "Restauração e impermeabilização de decks e pisos externos expostos ao clima." },
-  { icon: "🎨", title: "Tingimento", desc: "Mudança de cor do piso com tingimentos modernos mantendo a textura natural da madeira." },
-];
-
 function Services() {
   const [ref, visible] = useReveal();
   return (
